@@ -6,7 +6,7 @@ Feature: Obtener por producto
     * def tokenAuth = responseLogin.token
     * print tokenAuth
     * header Accept = 'application/json'
-    * header Authorization = 'Bearer' + tokenAuth
+    * header Authorization = 'Bearer ' + tokenAuth
 
   Scenario: Obtener producto
 
